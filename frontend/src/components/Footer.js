@@ -8,7 +8,7 @@ export default function Footer() {
     new Typewriter(footerCode, {
       strings: [
         "Made with ❤",
-        `Website Code <a style="text-decoration: underline;" href="www.google.com">@GitHub</a>`,
+        `Website Code <a style="text-decoration: underline;" href="https://github.com/EricLiclair/portfolio">@GitHub</a>`,
       ],
       loop: true,
       autoStart: true,
