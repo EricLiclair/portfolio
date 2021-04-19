@@ -52,17 +52,15 @@ export default function Home(props) {
       <div className="testimonials">
         <div className="testimonial">
           <h4>Harsh Akshit</h4>
-          <img src="/media/testiments/yash.jpeg" alt="" />
+          <img src="/media/testiments/harsh.jpg" alt="" />
           <p>
             Organiser
             <br />
             <strong>Google Developer Group, Ranchi</strong>
           </p>
           <span>
-            Shubham has had me perceive frontend development through a whole new
-            lens. A diligent, warm, and creative individual who keeps tossing a
-            lot of ideas on the table. It's absolutely a breeze to work with a
-            teammate like him.
+            Shubham has been an active volunteer to the GDG Ranchi and community
+            members. Creative individual with a lot of enthusiasm.
           </span>
         </div>
         <div className="testimonial">

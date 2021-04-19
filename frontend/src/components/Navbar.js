@@ -83,7 +83,11 @@ export default function Navbar(props) {
         </ul>
       </div>
 
-      <div className="toggle-icon-container"></div>
+      <div className="toggle-icon-container">
+        <div title="Language" className="lang-icon">
+          EN
+        </div>
+      </div>
     </div>
   );
 }
