@@ -1,0 +1,10 @@
+.portfolio-container {
+  width: 100%;
+  border: solid 1px white;
+  height: 10px;
+}
+
+#portfolio-container {
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}

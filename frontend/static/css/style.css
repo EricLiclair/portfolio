@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Courier Prime", monospace;
+  --primary-color: #ffc107;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  background-color: #191923;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
