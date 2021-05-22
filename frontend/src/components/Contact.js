@@ -68,7 +68,7 @@ export default function Contact() {
 
       <h4>Get in touch</h4>
       <div className="contact-form">
-        <form action="/api/contact-form" method="POST">
+        <form action="/">
           {Object.keys(formLabels).map((label, key) => {
             if (formLabels[label] !== "textarea") {
               return (
@@ -108,7 +108,11 @@ export default function Contact() {
               );
             }
           })}
-          <input className="submit-button" type="submit" />
+          <input
+            className="submit-button"
+            type="submit"
+            onClick={(e) => e.preventDefault()}
+          />
         </form>
       </div>
     </div>

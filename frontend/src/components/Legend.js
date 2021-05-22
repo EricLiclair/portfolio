@@ -19,7 +19,7 @@ export default function Legend() {
             <i className="fas fa-ellipsis-h legend-toggle-icon"></i>
           </div>
         ) : null}
-        <img src="/media/profile.jpg"></img>
+        <img src="/media/profile.png"></img>
         <h5>Shubham Kushwaha</h5>
         <p>Full Stack Developer</p>
       </div>
